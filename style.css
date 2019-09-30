@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    font-size: .75rem;
+}
+
+select {
+    padding: .2rem;
+}
+
+table {
+    text-align: center;
+}
+
+input {
+    text-align: right;
+}
+tr:hover{
+    background-color: #eee;
+}
